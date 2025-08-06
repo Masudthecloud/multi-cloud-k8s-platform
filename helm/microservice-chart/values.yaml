@@ -1,7 +1,7 @@
 replicaCount: 2
 image:
-  repository: your-registry/fastapi-app
-  tag: latest
+  repository: fastapi-app
+  tag: local
   pullPolicy: IfNotPresent
 
 service:
